@@ -5,8 +5,3 @@ Usa un tipo literal para declarar una variable que solo acepte uno de los valore
 TypeScript.
 */
 
-let diaDeLaSemana: string = "Lunes" || "Martes" || "Miércoles";
-console.log(diaDeLaSemana);
-
-diaDeLaSemana = "Jueves"
-console.log(diaDeLaSemana);
