@@ -10,3 +10,5 @@ console.log(numero);
 
 let texto = identidad<string>('hola'); // Y va a ser un string
 console.log(texto);
+
+//56:32
