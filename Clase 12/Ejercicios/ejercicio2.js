@@ -27,13 +27,13 @@ app.post('/users', (req, res) => {
     //Validamos que los datos esten presentes
     if (!name || !email) {
         return res.status(400).send('Faltan datos obligatorios...')
-    }
+    };
 
     //Agregamos el nuevo usuario
     users.push({name, email});
 
     //Respondemos con un mensaje de éxito y la lista de usuarios actualizada
-   res.status(201).json({message: 'Usuario agregado con éxito!!', users});
+    res.status(201).json({message: 'Usuario agregado con éxito!!', users});
 });
 
 //Inicializamos el servidor
